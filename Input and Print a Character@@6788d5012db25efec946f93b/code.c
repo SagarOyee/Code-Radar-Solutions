@@ -4,7 +4,6 @@ int main() {
     char ch;
 
     // Taking input from the user
-    printf("Enter a character: ");
     scanf("%c", &ch);
 
     // Printing the entered character
