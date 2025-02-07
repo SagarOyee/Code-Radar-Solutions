@@ -1,5 +1,15 @@
-# Taking input from the user
-char = input("Enter a character: ")
+#include <stdio.h>
 
-# Printing the entered character
-print("You entered:", char)
+int main() {
+    char ch;
+
+    // Taking input from the user
+    printf("Enter a character: ");
+    scanf("%c", &ch);
+
+    // Printing the entered character
+    printf("You entered: %c\n", ch);
+
+    return 0;
+}
+
